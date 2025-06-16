@@ -13,7 +13,7 @@ This Photoshop plugin adds support for opening and saving `.rpgmvp` `.png_` imag
 
 ##  Installation
 
-1. Download the `SimpleFormat.8bi` binary from [Releases](https://github.com/banatic/RPGMVP-Photoshop-Plugin/releases).
+1. Download the `rpgmvp_plugin.8bi` binary from [Releases](https://github.com/banatic/RPGMVP-Photoshop-Plugin/releases).
 2. Copy the `.8bi` file into your Photoshop `Plug-ins` folder:
     - e.g., `C:\Program Files\Adobe\Adobe Photoshop 2023\Plug-ins`
 3. Restart Photoshop.
@@ -31,6 +31,9 @@ The write (export) feature is **experimental** and may cause unintended behavior
 
 > Use at your own risk.  
 > I am **not responsible** for any damage, corruption, or loss resulting from use of this plugin.
+
+>  Editing files from multiple projects simultaneously is **not recommended** —  
+  the plugin temporarily stores the original encrypted header in memory, and concurrent modifications may lead to **corrupted headers or data loss.**
 
 ## Credits
 
